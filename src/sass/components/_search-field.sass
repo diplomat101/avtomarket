@@ -1,0 +1,32 @@
+.search-field
+    height: 35px
+    position: relative
+    &__input
+        height: 100%
+        background-color: rgba(52, 52, 52, .7)
+        padding-right: 38px
+        input
+            background-color: transparent
+            width: 100%
+            height: 100%
+            padding: 4px 8px 4px 14px
+            color: $white
+        input::placeholder
+            font-size: 12px
+            padding-left: 10px
+    &__btn
+        width: 38px
+        height: 100%
+        position: absolute
+        top: 0
+        right: 0
+        background-color: rgba(106, 104, 104, .6)
+        transition: all .25s ease
+        &:hover
+            background-color: rgba(106, 104, 104, .8)
+        svg
+            display: block
+            width: 50%
+            height: 50%
+            margin: auto
+    
